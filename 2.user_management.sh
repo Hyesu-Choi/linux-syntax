@@ -3,7 +3,7 @@ sudo useradd newuser1
 sudo passwd newuser1
 # sudo : root의 권한으로 실행 -> root의 비밀번호가 아닌, 현재 사용자의 비밀번호를 입력
 
-# su : switch축약어. 사용자 변경 -> 변경하고자 하는 계정의 비밀번호
+# su : switch축약어. 사용자 변경 -> 변경하고자 하는 계정의 비밀번호( - 다음에 계정 쓰는데 꼭 - 쓰고 한칸 띄워야함)
 su - newuser1
 
 # chmod는 권한 변경 : u(user:소유자)g(group:그룹)o(others:그외)로 구성. ex)rwxrw-r--

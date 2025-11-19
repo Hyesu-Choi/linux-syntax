@@ -53,8 +53,8 @@ tail 파일명
 # 파일내용 하위 n줄 출력하기
 tail -숫자 파일명
 
-# 파일내용 실시간 조회(로그 볼때 유용)
-tail -f 파일명
+# 파일내용 실시간 조회(로그 볼때 유용) ★
+tail -f 파일명 
 
 # 도스키(화살표키) 위/아래를 통해 이전 명령어 조회
 
@@ -88,8 +88,10 @@ cp first_file.txt fist_file_copy.txt
 
 # 파일 이동 명령어
 mv 이동대상파일 경로/이동될파일명
+
 # 현재 폴더에서 파일명 변경
 mv second_file.txt ./third_file.txt
+
 # 상위폴더로 파일이동
 mv second_file.txt ../
 
